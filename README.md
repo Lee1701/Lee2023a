@@ -12,7 +12,7 @@
 1. `README.md`
   : This current page
 2. `SupplementaryTables.xlsx`
-  : Supplementary Tables associated with our article above
+  : Supplementary Tables S1 to S8 associated with our article above
 3. `data`
   : Data for model training and evaluation
 4. `docking`
