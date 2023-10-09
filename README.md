@@ -3,8 +3,8 @@
   <img src="https://github.com/Lee1701/Lee2023a/blob/main/images/Meta-Model_Schematic.png" width="600">
 </p>
 
-- This repository contains scripts and codes for analyses in the following study by Lee, Emani, and Gerstein:
-<https://arxiv.org/abs/>
+- This repository contains scripts, codes, and data for the following study by Lee, Emani, and Gerstein:
+<https://arxiv.org/abs/2310.03946>
 
 - The scripts and codes are shared without optimization in this repository, which may include analyses and results that were not reported in the study above.
 
