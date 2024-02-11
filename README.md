@@ -1,6 +1,6 @@
 # Improved Prediction Of Ligand-Protein Binding Affinities By Meta-Modeling
 <p align="center">
-  <img src="https://github.com/Lee1701/Lee2023a/blob/main/images/Meta-Model_Schematic.png" width="600">
+  <img src="https://github.com/Lee1701/Lee2023a/blob/main/images/Fig1.revised.png" width="600">
 </p>
 
 - This repository contains scripts, codes, and data for the following study by Lee, Emani, and Gerstein:
@@ -11,8 +11,8 @@
 ## File description
 1. `README.md`
   : This current page
-2. `SupplementaryTables.xlsx`
-  : Supplementary Tables S1 to S8 associated with our article above
+2. `SupplementaryTables.revised.xlsx`
+  : Supplementary Tables S1 to S9 associated with our article (v2) above
 3. `data`
   : Data for model training and evaluation
 4. `docking`
