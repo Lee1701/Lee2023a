@@ -25,7 +25,9 @@
   : GNU General Public License v3.0
 
 ## Overall workflow 
-1. Docking tools: The docking tools, SMINA and Vinardo, have to be run on the complexes of interest.
+1. **Docking tools:** The docking tools, SMINA and Vinardo, have to be run on the complexes of interest. The code provided in the `empirical docking` folder provides some Python-based tools to convert a file into the 3D SDF format required to run `smina`. Subsequently, code is provided therein to run the docking tools and output a docked complex. The log files can then be parsed to obtain the lowest-energy binding affinity predicted.
+2. **Molecular weight:** The molecular weights of the ligands are required for the meta-models that incorporate them as features. One way to programmatically extract these is to use `OpenBabel`'s `obprop` function.
+3. **Deep-learning models:**  
 
 ## Contacts
 - Ho-Joon Lee, Ph.D.: **ho-joon.lee[_at_]yale.edu**
