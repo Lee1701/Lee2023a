@@ -26,9 +26,9 @@
 
 ## Overall workflow
 1. **Docking tools:** The docking tools, SMINA and Vinardo, have to be run on complexes with 3D structures. The code provided in the `empirical docking` folder provides Python-based tools to convert a file into the 3D SDF format required to run `smina`. Subsequently, code is provided therein to run the docking tools and output a docked complex. The log files can then be parsed to obtain the lowest-energy binding affinities predicted, which are part of meta-features for the meta-models.
-2. **Deep learning models:** Our deep learning models are based on the DeepPurpose library in Python. The input data are ligand SMILES and protein amino acid sequences. We developed 4 families of de novo-trained and fine-tuned models using BindingDB and PDBbind. Together with pre-trained models from DeepPurpose, we built up to 1,100 model variants from cross validations. Predicted binding affinities are part of meta-features for the meta-models with or without dimensionality reduction by PCA.
+2. **Deep learning models:** Our deep learning models are based on the DeepPurpose library in Python. The input data are ligand SMILES and protein amino acid sequences. We developed 4 families of de novo-trained and fine-tuned models using BindingDB and PDBbind. The `deep learning` folder contains example codes for selected models. Together with pre-trained models from DeepPurpose, we built up to 1,100 model variants from cross validations. Predicted binding affinities are part of meta-features for the meta-models with or without dimensionality reduction by PCA.
 3. **Molecular weight:** The molecular weights of the ligands may be used as a meta-feature for the meta-models. One way to programmatically extract them is to use `OpenBabel`'s `obprop` function.
-4. **Meta-models:** The code for the meta-model prediction task is provided in the `meta-models` folder. It takes a folder containing deep-learning predictions and a spreadsheet containing the docking tool scores and molecular weights as inputs.
+4. **Meta-models:** The code for the meta-model prediction task is provided in the `meta-models` folder. It takes a directory containing deep-learning predictions and a spreadsheet containing the docking tool scores and molecular weights as inputs.
 
 ## Contacts
 - Ho-Joon Lee, Ph.D.: **ho-joon.lee[_at_]yale.edu**
