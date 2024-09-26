@@ -24,6 +24,9 @@
 7. `LICENSE`
   : GNU General Public License v3.0
 
+## Overall workflow 
+1. Docking tools: The docking tools, SMINA and Vinardo, have to be run on the complexes of interest.
+
 ## Contacts
 - Ho-Joon Lee, Ph.D.: **ho-joon.lee[_at_]yale.edu**
 - Prashant Emani, Ph.D.: **prashant.emani[_at_]yale.edu**
