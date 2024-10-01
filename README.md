@@ -17,8 +17,8 @@
 ## File/folder description
 1. `README.md`
   : This current page
-2. `SupplementaryTables.revision2.xlsx`
-  : Supplementary Tables S1 to S11 associated with our article (v3) above
+2. `SupplementaryTables.revision4.xlsx`
+  : Supplementary Tables S1 to S11 associated with our article (v4) above
 3. `data`
   : Data for model training and evaluation
 4. `docking`
